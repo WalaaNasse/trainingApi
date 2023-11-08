@@ -11,7 +11,7 @@ app.get('/students', function (req, res) {
         {id:2,name:Ibrahim},
         {id:3,name:Walaa}
     ]
-    res.send('walaa nasser is Now Online')
+    res.send(data)
   })
 
 app.listen(PORT)
