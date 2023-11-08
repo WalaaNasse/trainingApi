@@ -7,9 +7,9 @@ app.get('/', function (req, res) {
 })
 app.get('/students', function (req, res) {
     var data=[
-        {id:1,name:Cezar},
-        {id:2,name:Ibrahim},
-        {id:3,name:Walaa}
+        {id:1,name:'Cezar'},
+        {id:2,name:'Ibrahim'},
+        {id:3,name:'Walaa'}
     ]
     res.send(data)
   })
